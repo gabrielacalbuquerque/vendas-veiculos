@@ -40,8 +40,6 @@ Este projeto analisa o desempenho de modelos automotivos em 2022, identificando 
 
 ![Dashboard](dash-vendas.jpg)
 
----
-
 ## Próximos Passos
 
 - Cruzar dados com pesquisas de satisfação
