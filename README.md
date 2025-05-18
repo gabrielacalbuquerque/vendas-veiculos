@@ -1,44 +1,47 @@
+# Análise de Vendas de Veículos
 
-## 📌 Objetivo
-Este projeto visa consolidar, limpar e analisar dados de vendas de veículos para extrair métricas financeiras relevantes, identificar padrões de mercado e fornecer recomendações estratégicas baseadas em dados.
+Este projeto analisa o desempenho de modelos automotivos em 2022, identificando padrões de vendas, receita por segmento e comportamento do consumidor para orientar estratégias comerciais.
 
-## 📂 Fontes de Dados
-- `projeto-monks.desempenhovendas.broken_database_1`
-- `projeto-monks.desempenhovendas.broken_database_2`
+---
 
-**Período:** Dados históricos completos  
-**Escopo:** Todas as marcas e modelos disponíveis
+## Ficha Técnica
 
-## 🛠 Estrutura do Projeto
-📂 projeto-vendas-veiculos/  
-│  
-├── 📂 data/  
-│   ├── 📂 raw/          # Dados brutos originais  
-│   └── 📂 processed/    # Dados tratados  
-│  
-├── 📂 notebooks/        # Análises em Jupyter Notebook  
-│   └── 📄 analise_vendas.ipynb  
-│  
-├── 📂 queries/          # Consultas SQL  
-│   ├── 📄 consolidacao.sql  
-│   └── 📄 analises.sql  
-│  
-├── 📄 README.md         # Documentação do projeto  
-└── 📄 requirements.txt  # Dependências (se usar Python)
+| Item                   | Descrição |
+|------------------------|-----------|
+| **Período analisado**  | Janeiro/2022 a Dezembro/2022 |
+| **Modelos analisados** | 5 principais (Fiat Mobi, VW Up!, Kia Picanto, Peugeot 208, Toyota Corolla) |
+| **Total de vendas**    | 184 unidades |
+| **Faturamento total**  | R$ 9,55 milhões |
+| **Ferramentas**        | BigQuery (SQL), Google Data Studio |
+| **Segmentos**          | Popular (até R$40k), Intermediário (R$80-90k), Premium (R$100-150k) |
 
-## 🔍 Principais Análises
-1. **Marca com maior volume de vendas**
-2. **Veículos com maior e menor receita**
-3. **Distribuição por faixa de preço**
-4. **Marcas com menor ticket médio**
-5. **Top 5 veículos mais vendidos**
+---
 
-## 📊 Resultados Chave
-- 58% das vendas concentradas no 1º semestre
-- 72% do volume em veículos populares (até R$40k)
-- 28% da receita proveniente de modelos premium
+## Objetivos
 
-## 🚀 Como Executar
-1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/projeto-vendas-veiculos.git
+- Identificar modelos com melhor desempenho por receita e volume
+- Analisar sazonalidade e preferências por faixa de preço
+- Calcular ticket médio real por segmento
+- Gerar insights para estratégias de marketing e financiamento
+
+---
+
+## Principais Insights
+
+1. **Sazonalidade**: 58% das vendas concentradas no 1º semestre
+2. **Segmento Popular**: 72% do volume de vendas (até R$40k)
+3. **Alto Valor**: Modelos premium representam 28% da receita total
+4. **Ticket Médio**: Variou de R$30k (popular) a R$125k (premium)
+
+---
+
+## Próximos Passos
+
+- Cruzar dados com pesquisas de satisfação
+- Analisar custo-benefício por modelo
+- Desenvolver campanhas segmentadas por perfil de compra
+
+---
+
+## Contato
+[✉️ Email](gabrieladataanalyst@gmail.com) | [🔗 LinkedIn](https://www.linkedin.com/in/gabriela-cdeallbuquerque/)
