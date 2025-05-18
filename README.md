@@ -35,6 +35,13 @@ Este projeto analisa o desempenho de modelos automotivos em 2022, identificando 
 
 ---
 
+
+## Visualização do Dashboard
+
+![Dashboard Spotify]()
+
+---
+
 ## Próximos Passos
 
 - Cruzar dados com pesquisas de satisfação
