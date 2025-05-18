@@ -11,7 +11,7 @@ Este projeto analisa o desempenho de modelos automotivos em 2022, identificando 
 | **Período analisado**  | Janeiro/2022 a Dezembro/2022 |
 | **Modelos analisados** | 5 principais (Fiat Mobi, VW Up!, Kia Picanto, Peugeot 208, Toyota Corolla) |
 | **Total de vendas**    | 184 unidades |
-| **Faturamento total**  | R$ 9,55 milhões |
+| **Faturamento total**  | R$  R$ 86,4 milhões |
 | **Ferramentas**        | BigQuery (SQL), Google Data Studio |
 | **Segmentos**          | Popular (até R$40k), Intermediário (R$80-90k), Premium (R$100-150k) |
 
